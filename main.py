@@ -1,3 +1,4 @@
+from scoring import score_profile_against_all_colleges
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -39,7 +40,8 @@ def serve_form():
 
 @app.post("/submit-profile")
 def submit_profile(profile: Profile):
-    # For now, just print it on the server and send it back.
-    # Phase 3 will replace this with real scoring logic.
-    print("Received profile:", profile)
-    return {"status": "received", "profile": profile}
+    # Convert the Pydantic model to a plain dictionary so our
+    # scoring functions (which expect plain dicts) can read it.
+    profile_dict = profile.model_dump()
+    scores = score_profile_against_all_colleges(profile_dict)
+    return {"status": "scored", "results": scores}
