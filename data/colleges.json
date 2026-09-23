@@ -1,0 +1,55 @@
+{
+  "colleges": [
+    {
+      "id": "iim_a",
+      "name": "IIM Ahmedabad",
+      "exam_accepted": "CAT",
+      "weightage": {
+        "entrance_exam_score": 25,
+        "academics": 15,
+        "work_experience": 10,
+        "personal_interview": 50,
+        "written_ability_test": 10,
+        "gender_diversity_bonus": true
+      },
+      "notes": "Two-stage process. Shortlisting is 65% CAT + 35% Application Rating (academics/work-ex/diversity). Final offer weighs PI heavily. Weightages change yearly - verify before relying on this."
+    },
+    {
+      "id": "isb",
+      "name": "Indian School of Business (ISB)",
+      "exam_accepted": "GMAT/GRE",
+      "weightage": {
+        "entrance_exam_score": 20,
+        "academics": 15,
+        "work_experience": 25,
+        "essays": 25,
+        "recommendations": 15
+      },
+      "notes": "ISB does not publish fixed percentages - evaluation is holistic across Academic Credentials, Leadership Potential, and Personal Attributes. These numbers are an approximation based on typical admit profiles, not official weightage."
+    },
+    {
+      "id": "fms_delhi",
+      "name": "Faculty of Management Studies (FMS) Delhi",
+      "exam_accepted": "CAT",
+      "weightage": {
+        "entrance_exam_score": 50,
+        "academics": 20,
+        "statement_of_purpose_discussion": 10,
+        "extempore": 5,
+        "personal_interview": 15
+      },
+      "notes": "Academics split as 10% Class X + 10% Class XII. Additional bonus marks awarded to women candidates."
+    },
+    {
+      "id": "xlri",
+      "name": "XLRI Jamshedpur",
+      "exam_accepted": "XAT",
+      "weightage": {
+        "entrance_exam_score": 60,
+        "group_discussion_interview": 25,
+        "academics_workex_gk_essay": 15
+      },
+      "notes": "The 15% bucket covers academic profile, work experience, general knowledge, and essay writing combined - XLRI does not break this down further publicly."
+    }
+  ]
+}

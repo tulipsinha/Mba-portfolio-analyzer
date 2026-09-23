@@ -1,0 +1,26 @@
+{
+  "specialization_interest": "finance",
+  "academics": {
+    "class_10_percent": 85,
+    "class_12_percent": 88,
+    "graduation_percent": 75,
+    "graduation_stream": "Computer Science"
+  },
+  "entrance_exam": {
+    "exam_name": "CAT",
+    "percentile": 92
+  },
+  "work_experience": {
+    "years": 1.5,
+    "domain": "IT / Software",
+    "role": "Software Engineer"
+  },
+  "extracurriculars": [
+    "College coding club - core member",
+    "State-level chess tournament - runner-up"
+  ],
+  "certifications": [
+    "Google Data Analytics Certificate"
+  ],
+  "target_colleges": ["iim_a", "isb", "fms_delhi", "xlri"]
+}
